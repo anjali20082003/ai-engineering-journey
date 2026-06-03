@@ -1,7 +1,7 @@
 # My AI Engineering Journey
 
 ## Goal
-To become a AI Engineer.
+To become an AI Engineer.
 
 ## Start Date
 3-June-2026
