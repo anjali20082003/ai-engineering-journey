@@ -1,0 +1,61 @@
+1. What is the difference between RAM and storage?
+Ans. RAM is a temporary working memory used while programs are running.
+     Storage (HDD/SSD) permanently keeps your files, photos, app, documents even when the computer is off. 
+
+
+2. Why does your computer slow down when you open too many programs?
+Ans. Every programs uses RAM and CPU resources. When too many programs are open, the computer runs out of free resources and has to work harder, making everything slower.
+
+
+3. What happens to your RAM when you restart your computer?
+Ans. RAM is temporary memory, when i restart, everything stored in RAM is erased and start fresh.
+
+
+4. Why do AI researchers prefer GPUs over CPUs for training?
+Ans. GPUs can perform thousand of calculation at the same time. AI involves huge amount of maths, so GPUs finish the work much faster than CPUs.
+
+
+5. What is the role of the Operating System?
+Ans. The operating system manages the computers and let programs work. It handles memory, files, hardware.
+
+
+6. If RAM is temporary, where is your Python code saved when you write it?
+Ans. My python code is saved permanently in storage (SSD/HDD) as a .py file. When you run it, the code is loaded from storage into RAM.
+
+
+7. What does "64-bit processor" mean? 
+Ans. A 64-bit processor can process larger amounts of data at once and can use much more RAM than older 32-bit processors. Most modern computers are 64-bit.
+
+
+8. What is a byte? A kilobyte? A gigabyte?
+Ans. 1 Byte = 8 bits. 1 KB ≈ 1,024 bytes. 1 MB ≈ 1,024 KB. 1 GB ≈ 1,024 MB. A byte stores a small amount of data, while a gigabyte stores a lot.
+
+
+9. Why does your phone get hot when running heavy apps?
+Ans. Heavy apps make the processor work harder. More work means more electricity is used, and some of that energy becomes heat.
+
+
+10. What is the difference between software and hardware?
+Ans. Hardware is the physical parts you can touch (keyboard, CPU, RAM, screen). Software is the programs and apps that run on the hardware.
+
+
+
+## QUIZ
+
+1. What does CPU stand for and what does it do?
+Ans. CPU stands for Central Processing Unit. It is the "brain" of the computer that processes instructions and performs calculations.
+
+2. What is the difference between RAM and an SSD?
+Ans. RAM is temporary memory used while programs are running.
+     SSD is permanent storage used to save files, applications, and the operating system.
+
+3. Name operating system.
+Ans. Windows, Linux, macOS
+
+4. Why are GPUs important for AI?
+Ans. GPUs can perform many calculations at the same time, making AI training and processing much faster than CPUs.
+
+5. What is the input-process-output cycle?
+Ans. Input: Data is entered into the computer.
+     Process: The CPU processes the data.
+     Output: The computer produces the result. 
