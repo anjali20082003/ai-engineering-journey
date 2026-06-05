@@ -1,0 +1,55 @@
+DAY 03 NOTES — Git & GitHub: Version Control
+=============================================
+Date: 5-June-2026
+
+GIT vs GITHUB:
+--------------
+Git    → software on your computer (tracks changes locally)
+GitHub → website on internet (stores code in cloud)
+
+Git = time machine for your code
+Every save = "commit" = permanent snapshot
+
+3 STAGES OF GIT:
+-----------------
+1. Working Directory → tumhari actual files
+2. Staging Area      → files jo next commit mein jaayengi
+3. Repository        → permanent saved snapshot (commit)
+
+Commands jo files move karti hain:
+  Working → Staging:    git add filename
+  Staging → Repository: git commit -m "message"
+  Local   → GitHub:     git push origin main
+
+ESSENTIAL COMMANDS:
+--------------------
+git config --global user.name "Anjali"
+git config --global user.email "you@email.com"
+git init          → folder ko Git repo banao
+git clone url     → GitHub se download karo
+git status        → kya badla dekho
+git add .         → sab files stage karo
+git commit -m ""  → snapshot save karo
+git log           → poori history dekho
+git log --oneline → compact history
+git push origin main → GitHub pe upload karo
+git pull origin main → GitHub se download karo
+
+DAILY WORKFLOW:
+----------------
+git pull origin main       (din ki shuruaat)
+git status                 (kya badla check karo)
+git add .                  (sab stage karo)
+git commit -m "Day X: .."  (snapshot lo)
+git push origin main       (upload karo)
+
+.gitignore KYA HAI:
+--------------------
+Git ko batata hai kaunsi files ignore karo
+Examples: .env .DS_Store __pycache__/ *.pyc venv/
+
+GOOD COMMIT MESSAGES:
+  Sahi:  "Add calculator feature"
+  Sahi:  "Day 3: Learn Git basics"
+  Galat: "update"  "final"  "asdf"
+
