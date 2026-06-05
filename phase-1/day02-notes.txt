@@ -1,0 +1,149 @@
+DAY 02 NOTES — Operating Systems, File Systems & Terminal
+==========================================================
+Date: 4-June-2026
+
+OS — 5 CORE ROLES:
+-------------------
+1. Process Management  → Programs run karta hai (multitasking)
+2. Memory Management   → RAM allocate karta hai apps ko
+3. File Management     → Files/folders organize karta hai
+4. Device Management   → Hardware drivers manage karta hai
+5. Security            → Access control karta hai
+
+OS = software bridge between user and hardware
+
+3 MAJOR OPERATING SYSTEMS:
+----------------------------
+Windows → common desktop OS
+macOS   → Apple computers, popular with developers
+Linux   → servers, cloud, AI systems (MOST IMPORTANT for AI)
+
+Every cloud server (AWS, GCP, Azure) runs Linux.
+
+FILE SYSTEM:
+------------
+Files organized as a tree starting from root /
+
+Example:
+/home/anjali/projects/ai-engineering-journey/main.py
+ ^root ^user  ^folder  ^project                ^file
+
+Absolute path → starts from / (full address)
+  Example: /home/anjali/projects/file.py
+
+Relative path → starts from current folder
+  Example: projects/file.py
+
+Special symbols:
+  /   = root (top of everything)
+  ~   = home folder (/home/anjali)
+  .   = current folder
+  ..  = one folder up
+
+TERMINAL COMMANDS:
+-------------------
+pwd           → current folder dikhao
+ls            → files list karo
+ls -la        → hidden files + permissions bhi dikhao
+cd folder     → folder mein jao
+cd ..         → ek folder upar jao
+cd ~          → home folder pe jao
+mkdir name    → naya folder banao
+touch file    → empty file banao
+cat file      → file content screen pe dikhao
+cp file1 f2   → file copy karo
+mv file1 f2   → move ya rename karo
+rm file       → PERMANENTLY delete (no trash!)
+clear         → terminal screen saaf karo
+
+HIDDEN FILES:
+  Start with dot (.)
+  Examples: .gitignore  .env  .bashrc
+  Dekho:    ls -la
+
+CHAIN COMMANDS:
+  mkdir my-project && cd my-project
+  (dono ek saath run hote hain)
+
+
+
+QUESTIONS
+
+
+1. What command shows you which folder you are currently in?
+Ans. pwd
+     It shows the current folder (directory) you are working in.
+
+2. You're inside /home/user/projects/ — what does cd .. do?
+Ans. It moves you one folder up.
+     You go from /home/user/projects/ to /home/user/.
+
+3. What is the difference between an absolute path and a relative path?
+Ans. Absolute path: Starts from the root (/) and gives the full location.
+     Example: /home/user/file.txt
+     Relative path: Starts from your current folder.
+     Example: documents/file.txt
+
+4. Why is rm dangerous compared to deleting files using a mouse?
+Ans. rm deletes files immediately.
+     Usually, files do not go to the Recycle Bin/Trash, so they can be hard or impossible to recover.
+
+5. What command would you use to create a folder called my-ai-project?
+Ans. mkdir my-ai-project
+
+6. You have a file script.py. What command shows you its contents?
+Ans. cat script.py
+
+7. What does ls -la show that ls doesn't?
+Ans. ls -la shows:
+     Hidden files
+     File permissions
+     File sizes
+     Owner information
+     ls only shows normal file and folder names.
+
+8. What is the difference between cp and mv?
+Ans. cp = Copy a file or folder.
+     mv = Move or rename a file or folder.
+
+9. On Linux, where do user files typically live?
+Ans. /home/username/
+
+Example:
+/home/anjali/
+
+10. What is a "hidden file" in Linux, and how do you spot one?
+Ans. A hidden file starts with a dot (.).
+
+Examples:
+.bashrc
+.gitignore
+Use ls -la to see them.
+
+11. What are the 5 main roles of an Operating System?
+Ans.  Process Management – Runs programs.
+ Memory Management – Manages RAM.
+ File Management – Organizes files and folders.
+ Device Management – Controls hardware devices.
+ User Interface – Lets users interact with the computer.
+
+12. Write the terminal command to create a folder called my-project and immediately move into it.
+Ans. mkdir my-project && cd my-project
+
+13. What is the difference between /home/user/ and ~/?
+ Ans. /home/user/ is the full path.
+      ~/ is a shortcut for the current user's home folder.
+
+     For user "anjali":
+    /home/anjali/
+
+    and
+    ~
+    mean the same thing.
+
+14. Why do AI engineers need to know Linux?
+Ans. Most AI servers, cloud systems, and supercomputers run Linux.
+     Knowing Linux helps AI engineers manage files, run programs, and use AI tools efficiently.
+
+15. What command would you type to see all files (including hidden ones) in your current folder?
+Ans.  ls -la
