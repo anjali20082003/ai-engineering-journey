@@ -50,3 +50,85 @@ Examples: .env .DS_Store __pycache__/ *.pyc venv/
 
 
 
+1. What is the difference between git add and git commit?
+Ans. git add → Selects changes you want to save.
+     git commit → Saves those selected changes permanently in Git.
+
+2. You made changes to 5 files but only want to commit 2 of them. What do you do?
+Ans. git add file1 file2
+     git commit -m "Added updates"
+    Only those 2 files will be committed.
+
+3. What does git status show you?
+Ans. It shows:
+     Changed files
+     Staged files
+     Untracked files
+     Current branch
+
+4. What is the purpose of a commit message?
+Ans. It explains what changes were made and why.
+Example: git commit -m "Fixed login bug"
+
+5. What is origin in git push origin main?
+Ans. origin is the nickname of the remote GitHub repository.
+
+6. What happens if you forget to git add before git commit?
+Ans. Git will not commit your changes because they were not staged.
+
+7. Why should you git pull before starting work each day?
+Ans. To get the latest changes from teammates and avoid conflicts.
+
+8. What is a branch and why is it useful?
+Ans. A branch is a separate workspace where you can work on features without affecting the main code.
+
+9. What is the difference between git init and git clone?
+Ans. git init → Creates a new Git repository.
+     git clone → Downloads an existing Git repository.
+
+10. You commit with the wrong message. How does that feel?
+Ans. No problem! You can fix it:
+     git commit --amend -m "Correct message"
+
+
+
+Quiz
+=========
+
+1. What are the 3 stages of Git?
+Ans. Working Directory - Files you are editing
+     Staging Area - Files selected using git add
+     Repository - Files saved using git commit
+
+Commands:
+git add      # Working Directory → Staging Area
+git commit   # Staging Area → Repository
+
+2. Create a folder, initialize Git, create a file, and make the first commit
+Ans. mkdir myproject
+     cd myproject
+     git init
+     echo Hello > hello.txt
+     git add hello.txt
+     git commit -m "First commit"
+
+18. What is the difference between git init and git clone?
+Ans. git init	git clone
+     Creates a new repository	Copies an existing repository
+     Starts from scratch	Downloads code from GitHub
+
+19. What does .gitignore do? Give 2 examples.
+Ans. It prevents files from being tracked by Git.
+
+Examples:
+.env
+node_modules/
+
+20. Why is writing a good commit message important for an AI Engineer?
+Ans. Because it helps:
+     Understand changes later
+     Collaborate with teammates
+     Debug problems faster
+     Track project history clearly
+
+
