@@ -48,8 +48,5 @@ git push origin main       (upload karo)
 Git ko batata hai kaunsi files ignore karo
 Examples: .env .DS_Store __pycache__/ *.pyc venv/
 
-GOOD COMMIT MESSAGES:
-  Sahi:  "Add calculator feature"
-  Sahi:  "Day 3: Learn Git basics"
-  Galat: "update"  "final"  "asdf"
+
 
