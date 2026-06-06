@@ -1,0 +1,135 @@
+DAY 04 NOTES — Internet, HTTP, APIs, JSON
+==========================================
+Date: 6-June-2026
+
+INTERNET KYA HAI:
+------------------
+Internet duniya bhar ke computers or device ka ek bada network hai jo ek dusre se connect hote hain or information share krte hai.
+
+DNS KYA HAI:
+-------------
+DNS website ke name ko IP address mein convert karta hai taki browser sahi website pr pohoch sake .
+
+HTTP vs HTTPS:
+---------------
+HTTP  → HyperText Transfer Protocol hai. Website or browser ke bich data bejne ka tarika, secure nhi hota.
+HTTPS → HyperText Transfer Protocol Secure hai. website or browser ke bich data secure or encrypted form mein hota hai/
+
+HTTP METHODS:
+--------------
+GET    → Data lene ke liye use hota hai.
+POST   → Naya data bhejne ke liye use hota hai. 
+PUT    → Purana data update karne ke liye use hota hai.
+DELETE → Data delete karne ek liye use hota hai.
+
+API KYA HAI:
+-------------
+API stands for Application Programming Interface.
+API ek medium hai jo do application ko apas mein baat karne deta hai
+[Waiter analogy]
+User customer hai, Api waiter hai or database kitchen hai.
+customer order waiter ko deta hai , waiter kitchen mein ja kr order batata hai , fir waiter order kitchen se le kr customer ko deta hai.
+
+JSON FORMAT:
+-------------
+{ "name": "Anjali",
+  "age": 20,
+  "skills": ["python", "ai", "sql"],
+  "city": "Delhi" 
+}
+
+
+STATUS CODES:
+--------------
+200 → Request successful hai.
+404 → Page ya data nhi mila.
+500 → server ke under error aa gya.
+
+
+
+QUESTIONS
+--------------
+
+1. HTTP aur HTTPS mein kya fark hai?
+Ans. HTTP: Data normal text mein bejhta hai.
+     HTTPS: Data encrypted (secure) karke bejhta hai.
+     example: HTTP = Khula postcard 
+	 HTTPS = Locked envelope 
+
+
+2. DNS kya kaam karta hai? 
+Ans. DNS website ke name ko IP address mein convert karta hai. 
+     Example:
+      Aap browser mein google.com likhte ho.
+      DNS uska IP address dhoondhta hai.
+      Fir browser us website tak pahunchta hai.
+      Analogy:
+      DNS = Mobile contact list 
+      Aap "Mom" likh kar call karte ho, number yaad nahi rakhte.
+
+
+3. GET aur POST mein kya fark hai?
+Ans. GET- Data lene ke liye.
+	Example: Google par weather search karna.
+     POST- Naya data bhejne ke liye.
+	Example: Instagram par photo upload karna.
+
+
+4. IP Address kya hota hai?
+Ans. IP stands for Internet Protocol hai.
+     Internet par har device ka unique address hota hai.
+     Example: 192.168.1.1
+     Analogy: Jaise har ghar ka ek address hota hai, waise har device ka IP address hota hai
+
+
+5. JSON mein String aur Number kaise likhte hain?
+Ans. String - Quotes ke andar.      "name": "Anjali"
+
+     Number - Quotes ke bina.        "age": 20
+
+
+6. API kyun use karte hain? Database se seedha data kyun nahi lete?
+
+Ans. API ek safe middleman hai.
+	Reason: Security, Data control, Rules apply kar sakte hain
+	Analogy: Restaurant:
+		Database = Kitchen 
+		API = Waiter 
+		User = Customer
+	Customer kitchen mein nahi jaata, waiter se order karta hai.
+
+7. Browser mein Lock Icon kya indicate karta hai?
+Ans. Website HTTPS use kar rahi hai.
+	Matlab: Connection secure hai.
+		Data encrypted hai.
+
+
+8. Ye JSON sahi hai ya galat?   {name: Anjali, age: 20}
+Ans. Galat because Keys aur string values quotes mein honi chahiye.
+
+9. HTTP Status Codes kya hote hain?
+Ans. Server ke response messages.
+	200 - Sab theek hai
+	404 - Page nahi mila
+	500 - Server ke andar error aa gaya
+
+10. Weather App API ka use karke kaise kaam karti hai?
+Ans.	User city enter karta hai.
+	App Weather API ko request bhejti hai.
+	API weather data bhejti hai.
+	App screen par temperature dikhati hai.
+
+	Flow:
+
+	User
+	  ↓
+	Weather App
+	  ↓
+	Weather API
+	  ↓
+	Weather Data
+	  ↓
+	App Screen
+
+
+
