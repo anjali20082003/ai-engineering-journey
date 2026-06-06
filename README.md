@@ -27,5 +27,7 @@ Day 1: Learned how computers work — CPU, RAM, Storage, GPU, OS
 
 Day 2: Operating Systems, File Systems, Terminal Commands
 
-Day 3: Git, GitHub, Version Control 
+Day 3: Git, GitHub, Version Control
+
+Day 4: Internet, HTTP, APIs, JSON 
 
