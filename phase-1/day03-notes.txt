@@ -112,19 +112,19 @@ Ans. mkdir myproject
      git add hello.txt
      git commit -m "First commit"
 
-18. What is the difference between git init and git clone?
+3. What is the difference between git init and git clone?
 Ans. git init	git clone
      Creates a new repository	Copies an existing repository
      Starts from scratch	Downloads code from GitHub
 
-19. What does .gitignore do? Give 2 examples.
+4. What does .gitignore do? Give 2 examples.
 Ans. It prevents files from being tracked by Git.
 
 Examples:
 .env
 node_modules/
 
-20. Why is writing a good commit message important for an AI Engineer?
+5. Why is writing a good commit message important for an AI Engineer?
 Ans. Because it helps:
      Understand changes later
      Collaborate with teammates
