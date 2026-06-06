@@ -1,0 +1,76 @@
+DAY 05 NOTES — Python Setup + Pehla Program
+============================================
+Date: 6-June-2026
+
+PYTHON KYA HAI:
+----------------
+Python ek programming language hai.
+Simple English jaisi language hai.
+AI, ML, Data Science sab Python mein hota hai.
+Duniya ki sabse popular language hai 2024 mein.
+
+PRINT FUNCTION:
+----------------
+print() → screen pe kuch dikhata hai
+
+Examples:
+  print("Hello!")           → Hello!
+  print(100)                → 100
+  print(10 + 5)             → 15
+
+COMMENTS:
+----------
+# se shuru hone wali line = comment
+Python comments ko ignore karta hai
+Sirf programmer ke liye note hota hai
+
+
+
+QUOTES KA RULE:
+----------------
+print("Anjali")  ✅ double quotes
+print('Anjali')  ✅ single quotes
+print(Anjali)    ❌ galat — error aayega
+
+
+QUESTIONS ANSWERS:
+-------------------
+1. Python kya hai?
+   Python ek programming language hai jo simple
+   English jaisi hai. AI/ML ke liye use hoti hai.
+
+2. print() kya karta hai?
+   Screen pe text ya data dikhata hai.
+
+3. Comment kya hota hai?
+   # se shuru hoti hai line. Python ignore karta hai.
+   Programmer ke liye note hota hai.
+
+4. Python file ka extension kya hota hai?
+   .py  example: hello.py, calculator.py
+
+5. VS Code mein Python program kaise run karte hain?
+   Ctrl+F5 dabao → Python Debugger select karo
+
+6. print("Hello") aur print(Hello) mein kya fark hai?
+   "Hello" → text hai, quotes zaroori hain ✅
+   Hello   → Python sochega ye variable hai → Error ❌
+
+7. Pip kya hai?
+   Python ka package manager hai.
+   Libraries install karne ke liye use hota hai.
+   Example: pip install numpy
+
+8. Ye code kya print karega?
+   print("2 + 2")   → 2 + 2    (text hai)
+   print(2 + 2)     → 4        (calculation hai)
+
+9. Comment aur Code mein kya fark hai?
+   Comment → # se shuru, Python ignore karta hai
+   Code    → Python execute karta hai
+
+10. Python popular kyun hai AI ke liye?
+    Simple syntax hai
+    Bahut saari AI libraries hain (NumPy, Pandas, TensorFlow)
+    Large community hai
+    Companies use karti hain — Google, Meta, OpenAI

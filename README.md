@@ -29,5 +29,7 @@ Day 2: Operating Systems, File Systems, Terminal Commands
 
 Day 3: Git, GitHub, Version Control
 
-Day 4: Internet, HTTP, APIs, JSON 
+Day 4: Internet, HTTP, APIs, JSON
+
+Day 5: Python Setup, VS Code, First Program 
 
