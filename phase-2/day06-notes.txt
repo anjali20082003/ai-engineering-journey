@@ -1,0 +1,55 @@
+DAY 06 NOTES — Variables & Data Types
+======================================
+Date: 7-June-2026
+
+WHAT IS A VARIABLE:
+--------------------
+Variable = a box that stores data
+name = "Anjali"  →  box label = name
+                    what is inside = "Anjali"
+
+= means ASSIGN, not equal
+
+5 MAIN DATA TYPES:
+-------------------
+int   → whole numbers        age = 20
+float → decimal numbers      height = 5.4
+str   → text                 name = "Anjali"
+bool  → only True or False   is_student = True
+None  → no value / empty     result = None
+
+TYPE CHECK:
+------------
+type(age)        → <class 'int'>
+type(height)     → <class 'float'>
+type(name)       → <class 'str'>
+type(is_student) → <class 'bool'>
+type(None)       → <class 'NoneType'>
+
+NOTE: type() always returns <class 'xxx'> format
+      NOT just "Integer" or "Boolean"
+
+TYPE CONVERSION:
+-----------------
+int("20")    → 20    (string to integer)
+float("5.4") → 5.4   (string to float)
+str(20)      → "20"  (integer to string)
+int(9.9)     → 9     (float to int — decimal is cut, NOT rounded)
+
+VARIABLE NAMING RULES:
+-----------------------
+ Use snake_case          → first_name, my_age
+ Letters, numbers, _     → model_v2, data_1
+ Start with a letter     → name, age, result
+ No spaces               → my age    (wrong)
+ Cannot start with number→ 2marks    (wrong)
+ No hyphens              → my-age    (wrong)
+ No Python keywords      → class, if, for, while (wrong)
+
+IMPORTANT — BOOLEAN RULE:
+--------------------------
+True  → valid (capital T)
+False → valid (capital F)
+true  → NameError (Python does not know this)
+false → NameError (Python does not know this)
+

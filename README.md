@@ -31,5 +31,7 @@ Day 3: Git, GitHub, Version Control
 
 Day 4: Internet, HTTP, APIs, JSON
 
-Day 5: Python Setup, VS Code, First Program 
+Day 5: Python Setup, VS Code, First Program
+
+Day 6: Variables \& Data Types 
 
