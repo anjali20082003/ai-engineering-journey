@@ -53,7 +53,4 @@ and → both must be True   True and True  → True
 or  → any one True        True or False  → True
 not → reverse it          not True       → False
 
-MY CODE FILE:
---------------
-Location: projects/python-basics/operators.py
 
