@@ -33,5 +33,7 @@ Day 4: Internet, HTTP, APIs, JSON
 
 Day 5: Python Setup, VS Code, First Program
 
-Day 6: Variables \& Data Types 
+Day 6: Variables \& Data Types
+
+Day 7 Input, Output, Operators 
 

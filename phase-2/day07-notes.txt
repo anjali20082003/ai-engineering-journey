@@ -1,0 +1,59 @@
+DAY 07 NOTES — Input, Output & Operators
+==========================================
+Date: 8-June-2026
+
+INPUT FUNCTION:
+----------------
+input()  → user se data leta hai
+         → ALWAYS returns STRING
+
+age = input("Age: ")         # "20" string hai
+age = int(input("Age: "))    # 20 integer hai ✅
+
+F-STRING (Best Output Method):
+--------------------------------
+name = "Anjali"
+age = 20
+print(f"Name: {name}, Age: {age}")
+# Output: Name: Anjali, Age: 20
+
+{} ke andar variable ya expression dono chal sakte hain:
+print(f"Next year age: {age + 1}")
+
+ARITHMETIC OPERATORS:
+----------------------
++   → addition        10 + 3  = 13
+-   → subtraction     10 - 3  = 7
+*   → multiply        10 * 3  = 30
+/   → divide (float)  10 / 3  = 3.333
+//  → divide (int)    10 // 3 = 3
+%   → remainder       10 % 3  = 1
+**  → power           2 ** 3  = 8
+
+COMPARISON OPERATORS (return True/False):
+------------------------------------------
+==  → equal to         10 == 10 → True
+!=  → not equal        10 != 5  → True
+>   → greater than     10 > 5   → True
+<   → less than        10 < 5   → False
+>=  → greater or equal 10 >= 10 → True
+<=  → less or equal    5 <= 10  → True
+
+ASSIGNMENT OPERATORS:
+----------------------
+=   → assign          x = 10
++=  → add and assign  x += 5  → x = 15
+-=  → sub and assign  x -= 3  → x = 12
+*=  → mul and assign  x *= 2  → x = 24
+/=  → div and assign  x /= 4  → x = 6.0
+
+LOGICAL OPERATORS:
+-------------------
+and → both must be True   True and True  → True
+or  → any one True        True or False  → True
+not → reverse it          not True       → False
+
+MY CODE FILE:
+--------------
+Location: projects/python-basics/operators.py
+
