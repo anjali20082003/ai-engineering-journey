@@ -35,5 +35,7 @@ Day 5: Python Setup, VS Code, First Program
 
 Day 6: Variables \& Data Types
 
-Day 7 Input, Output, Operators 
+Day 7: Input, Output, Operators
+
+Day 8: Conditional Statements if/elif/else
 

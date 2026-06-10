@@ -1,0 +1,63 @@
+DAY 08 NOTES — Conditional Statements
+=======================================
+Date: 9-June-2026
+
+WHAT ARE CONDITIONS:
+---------------------
+Program decisions leta hai — True/False pe based
+
+SYNTAX:
+--------
+if condition:          # colon zaroori!
+    do something       # 4 spaces indent zaroori!
+elif another condition:
+    do something else
+else:
+    default action
+
+IF ONLY:
+---------
+if marks >= 90:
+    print("A grade")
+
+IF/ELSE:
+---------
+if age >= 18:
+    print("Adult")
+else:
+    print("Minor")
+
+IF/ELIF/ELSE:
+--------------
+if marks >= 90:   grade = "A"
+elif marks >= 80: grade = "B"
+elif marks >= 70: grade = "C"
+else:             grade = "F"
+
+NESTED IF (if ke andar if):
+-----------------------------
+if username == "anjali":
+    if password == "123":
+        print("Login OK")
+    else:
+        print("Wrong password")
+
+SHORTHAND IF (ternary):
+------------------------
+status = "Adult" if age >= 18 else "Minor"
+
+CONDITIONS WITH OPERATORS:
+----------------------------
+and → dono true hone chahiye
+or  → koi ek true ho
+not → ulta karo
+in  → string mein word check karo
+      "free" in message → True/False
+
+COMMON MISTAKES:
+-----------------
+if age > 18         ← colon missing ❌
+if age > 18:        ← sahi ✅
+    print("Adult")  ← indent sahi ✅
+print("Adult")      ← indent missing ❌
+
